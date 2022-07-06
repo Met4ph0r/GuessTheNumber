@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(10, 161, 216);
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h2{
+    font-family:'Lucida Sans';
+    font-size: 60px;
+    color: rgba(66, 0, 30, 0.673);
+}
+
+p{
+    font-size: medium;
+    font-weight: 100;
+}
+
+input{
+    background-color: rgba(66, 0, 30, 0.673);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    width: 20%;
+    height:60px;
+	border-radius: 5px;
+    overflow: hidden;
+}
+
+.main{
+    color: azure;
+    font-family: Verdana;
+    font-size: x-large;
+    text-align: center;
+    margin-block: 50px;
+}
+
+.btn{
+    align-items: center;
+    background-color: #FCFCFD;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    font-family: "JetBrains Mono",monospace;
+    font-weight: bold;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-inline: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    font-size: 18px;
+  }
+  
+  .btn:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .btn:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .btn:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
